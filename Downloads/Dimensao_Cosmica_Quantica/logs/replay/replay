@@ -1,0 +1,4 @@
+import os
+
+# Criação da pasta 'replay'
+os.makedirs("replay", exist_ok=True)

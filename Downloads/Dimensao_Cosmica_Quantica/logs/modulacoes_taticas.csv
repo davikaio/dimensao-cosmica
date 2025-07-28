@@ -1,0 +1,5 @@
+Timestamp,TaticaAnterior,NovaTatica,Motivo,Ativo,ParametroChave
+2025-07-19 11:00:00,Padrao,Defensiva,AumentoDeVolatilidade,WINQ25,StopLongo
+2025-07-19 11:25:00,Defensiva,Agressiva,SinalForteDeTendencia,WINQ25,AlvoCurto
+2025-07-19 11:45:00,Agressiva,Padrao,NormalizacaoDoMercado,WINQ25,ResetParametros
+2025-07-19 12:00:00,Padrao,Scalper,BaixaVolatilidade,WDOQ25,Gain_1_Ponto

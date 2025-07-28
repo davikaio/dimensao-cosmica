@@ -1,0 +1,5 @@
+Timestamp,VersaoPrototipo,AtivoAlvo,ModoOperacional,ParametroA,ParametroB,Resultado,Observacao
+2025-07-19 09:30:00,NTX-v0.1-alpha,PETR4,Agressivo,0.75,15,ATIVADO,Monitorando volatilidade
+2025-07-19 09:35:00,NTX-v0.1-alpha,PETR4,Agressivo,0.75,15,ORDEM_ENVIADA,Ordem de compra a 35.50
+2025-07-19 09:45:00,NTX-v0.1-alpha,PETR4,Agressivo,0.75,15,POSICAO_FECHADA,Gain de R$ 0.25 por acao
+2025-07-19 10:00:00,NTX-v0.2-beta,VALE3,Conservador,0.90,30,ATIVADO,Aguardando sinal de entrada

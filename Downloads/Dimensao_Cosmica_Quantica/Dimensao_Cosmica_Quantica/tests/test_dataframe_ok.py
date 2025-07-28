@@ -1,0 +1,1 @@
+# Teste com dataframe válido

@@ -1,0 +1,21 @@
+import tkinter as tk
+
+ativo_atual = tk.StringVar()
+ativo_atual.set("eurusd")
+
+def trocar_ativo():
+    novo_ativo = entrada.get()
+    ativo_atual.set(novo_ativo)
+
+janela = tk.Tk()
+janela.title("Painel de Ativo")
+
+tk.Label(janela, text="Ativo atual:").pack()
+tk.Label(janela, textvariable=ativo_atual).pack()
+
+entrada = tk.Entry(janela)
+entrada.pack()
+
+tk.Button(janela, text="Trocar ativo", command=trocar_ativo).pack()
+
+janela.mainloop()

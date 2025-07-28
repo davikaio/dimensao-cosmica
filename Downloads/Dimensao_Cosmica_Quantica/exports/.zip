@@ -1,0 +1,12 @@
+# 🧱 Cria o .zip na raiz temporariamente
+zip_base_name = f"relatorio_ciborna_{agora}"
+shutil.make_archive(zip_base_name, "zip", "logs", os.path.basename(html_report))
+
+# 🗃️ Garante que a pasta exports exista
+os.makedirs("exports", exist_ok=True)
+
+# 📦 Move o .zip para exports/
+zip_final_path = os.path.join("exports", f"{zip_base_name}.zip")
+shutil.move(f"{zip_base_name}.zip", zip_final_path)
+
+print(f"📦 Relatório compactado com sucesso: {zip_final_path}")

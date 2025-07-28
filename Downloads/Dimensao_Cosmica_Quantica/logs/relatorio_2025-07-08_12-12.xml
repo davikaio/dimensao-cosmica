@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="1" failures="0" skipped="0" tests="1" time="3.367" timestamp="2025-07-08T12:12:57.984264-03:00" hostname="acunha"><testcase classname="" name="tests.test_dataframe_erro_len" time="0.000"><error message="collection failure">tests\test_dataframe_erro_len.py:4: in &lt;module&gt;
+    df = pd.DataFrame({
+C:\Users\William\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\frame.py:778: in __init__
+    mgr = dict_to_mgr(data, index, columns, dtype=dtype, copy=copy, typ=manager)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\William\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\internals\construction.py:503: in dict_to_mgr
+    return arrays_to_mgr(arrays, columns, index, dtype=dtype, typ=typ, consolidate=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\William\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\internals\construction.py:114: in arrays_to_mgr
+    index = _extract_index(arrays)
+            ^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\William\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\internals\construction.py:677: in _extract_index
+    raise ValueError("All arrays must be of the same length")
+E   ValueError: All arrays must be of the same length</error></testcase></testsuite></testsuites>

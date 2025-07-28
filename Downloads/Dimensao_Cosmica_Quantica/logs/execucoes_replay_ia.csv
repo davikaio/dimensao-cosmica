@@ -1,0 +1,5 @@
+HorarioReplay,Simbolo,TipoOrdem,PrecoEntrada,ResultadoIA,LucroEstimado,EstrategiaUsada
+2025-07-18 10:05:00,WDOQ25,COMPRA,5450.5,GAIN,15.50,ReversaoMedia
+2025-07-18 10:22:00,WDOQ25,VENDA,5458.0,LOSS,-8.00,RompimentoVolatilidade
+2025-07-18 11:15:00,WINQ25,COMPRA,121500,GAIN,150.00,SinalTecnico_MACD
+2025-07-18 11:40:00,WINQ25,VENDA,121850,GAIN,250.00,FluxoAgressoes
